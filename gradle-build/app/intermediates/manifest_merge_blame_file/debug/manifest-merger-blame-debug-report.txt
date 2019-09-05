@@ -1,0 +1,70 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.fcfrt.netdemo"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="14"
+9-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:5:5-78
+12-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:7:5-66
+13-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+14-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:9:5-78
+14-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:11:5-75
+15-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:11:22-73
+16    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+16-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:13:5-75
+16-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:13:22-73
+17
+18    <dist:module dist:instant="true" />
+18-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:14:5-40
+18-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:14:18-37
+19
+20    <application
+20-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:16:5-31:19
+21        android:name="com.fcfrt.netdemo.App"
+21-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:17:9-28
+22        android:allowBackup="true"
+22-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:18:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.0.2] C:\Users\windows10\.gradle\caches\transforms-2\files-2.1\68399ff6f7cdf924235d3ad145929c6a\core-1.0.2\AndroidManifest.xml:22:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:19:9-43
+26        android:label="@string/app_name"
+26-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:20:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:21:9-54
+28        android:supportsRtl="true"
+28-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:22:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:23:9-40
+31        <activity android:name="com.fcfrt.netdemo.MainActivity" >
+31-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:24:9-30:20
+31-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:24:19-47
+32            <intent-filter>
+32-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:25:13-29:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:26:17-69
+33-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:26:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:28:17-77
+35-->G:\FCFRT_NEW_KF\Android\demo\FcfrtNetDemo-master\app\src\main\AndroidManifest.xml:28:27-74
+36            </intent-filter>
+37        </activity>
+38    </application>
+39
+40</manifest>

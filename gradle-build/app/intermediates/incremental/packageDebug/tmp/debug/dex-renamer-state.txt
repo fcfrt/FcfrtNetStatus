@@ -1,0 +1,4 @@
+#Thu Sep 05 16:19:48 CST 2019
+base.0=G\:\\FCFRT_NEW_KF\\Android\\demo\\FcfrtNetDemo-master\\gradle-build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
