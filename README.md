@@ -84,6 +84,7 @@ FcfrtNetState 是一个可以无缝进行网络状态监听的框架，使用简
 
 ```java
 // 当 wifi 连接和失去连接时都被调用
+@FcfrtNetSubscribe(mode = Mode.WIFI)
 fun wifiChange(netType:NetType) {
         runOnUiThread {
           Log.d("网络状态", netType.name());
