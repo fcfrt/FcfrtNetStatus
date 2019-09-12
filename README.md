@@ -15,6 +15,23 @@ FcfrtNetState 是一个可以无缝进行网络状态监听的框架，使用简
 本库出于性能考虑决定使用 `FcfrtNetworkCallbackImpl` 类来代替广播实现网络状态变化监听。因此需要您将`minSdkVersion` 升级为21及以上。
 
 如果确实需要满足在 Android 5.0 以下机型中进行运行，请联系我，我者会根据反馈考虑是否重新加入广播进行监听网络事件。
+## gradle
+Step 1. 将JitPack存储库添加到构建文件中
+将其添加到根构建中。仓库末尾的gradle:
+```java
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Step 2. 添加依赖关系
+```java
+	dependencies {
+	        implementation 'com.github.fcfrt:FcfrtNetStatus:1.0'
+	}
+```
 ## 进入主题
 1. Application 中初始化 FcfrtNetStatusBus：
 
@@ -84,6 +101,7 @@ FcfrtNetState 是一个可以无缝进行网络状态监听的框架，使用简
 
 ```java
 // 当 wifi 连接和失去连接时都被调用
+@FcfrtNetSubscribe(mode = Mode.WIFI)
 fun wifiChange(netType:NetType) {
         runOnUiThread {
           Log.d("网络状态", netType.name());
