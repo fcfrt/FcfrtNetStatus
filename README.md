@@ -29,7 +29,7 @@ Step 1. 将JitPack存储库添加到构建文件中
 Step 2. 添加依赖关系
 ```java
 	dependencies {
-	        implementation 'com.github.fcfrt:FcfrtNetStatus:1.0'
+	        implementation 'com.github.fcfrt:FcfrtNetStatus:1.0.1'
 	}
 ```
 ## 进入主题
