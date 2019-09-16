@@ -2,9 +2,11 @@ package com.fcfrt.netdemo
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import com.fcfrt.netbua.FcfrtNetStatusBus
 import com.fcfrt.netbua.annotation.FcfrtNetSubscribe
 import com.fcfrt.netbua.type.Mode
+import com.fcfrt.netbua.type.NetType
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -50,6 +52,12 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+
+    // 当移动网络连接和失去连接时都会被调用
+   /* @FcfrtNetSubscribe(mode = Mode.AUTO)
+    fun netChange(netType: NetType) {
+        Log.d("网络状态", netType.name)
+    }*/
 
 
     override fun onStart() {
